@@ -1,0 +1,24 @@
+body{font-family:微软雅黑, 宋体;font-size:12px;color:#616161;outline:0;-webkit-text-size-adjust:none;}
+*:focus{outline:none;}
+.container{border:3px #cacaca solid;margin:10px;}
+.container:hover{border:3px #007eff solid;}
+
+#title{font-size:25px;margin:10px;margin-bottom:0px;}
+
+#chart-containers{width:1300px;}
+.chart-container{width:400px;height:200px;float:left;}
+
+.node-container{border:3px #cacaca solid;margin:10px;width:60px;height:15px;float:left;cursor:pointer;
+	text-align:center;padding:8px;
+}
+
+#node-containers{}
+.node-container:hover{border:3px #0084ff solid;}
+#tip{position:absolute;top:10px;left:50%;font-weight:bold;text-align:center;
+	box-shadow:1px 1px 1px #d9d9d9;padding:8px;margin-left:-75px;display:none;
+	height:17px;background-color:#fff;border:1px #c8c8c8 solid;min-width:150px;
+}
+#console{margin:10px;padding:5px;width:393px;height:300px;float:left;background-color:#000;color:#8c8c8c;border:1px #cacaca dashed;
+	font-size:12px;
+}
+#console_input{margin:10px;padding:5px;width:500px;height:300px;float:left;border:1px #cacaca dashed;overflow:auto;}

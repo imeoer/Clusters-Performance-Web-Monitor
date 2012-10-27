@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>集群性能WEB监控平台</title>
+		<script src="./js/jquery-1.7.1.min.js"></script>
+		<script src="./js/jquery.terminal-0.4.17.js"></script>
+		<script src="./js/highcharts.js"></script>
+		<script src="./js/socket.io.js"></script>
+		
+		<script src="./js/index.js"></script>
+		<link href="./css/main.css" rel="stylesheet">
+		<link href="./css/jquery.terminal.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="title">集群性能WEB监控平台 - 请选择结点</div>
+		<div id="chart-containers">
+			<div class="chart-container container" id="cpu-container"></div>
+			<div class="chart-container container" id="memory-container"></div>
+			<div class="chart-container container" id="disk-container"></div>
+		</div>
+		<textarea id="console" readonly></textarea>
+		<div id="console_input"></div>
+		<div id="node-containers"></div>
+		<div id="tip"></div>
+		
+	</body>
+</html>
